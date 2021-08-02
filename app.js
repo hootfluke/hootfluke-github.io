@@ -197,7 +197,7 @@ function reset() {
         cardStack2.style.visibility = "visible";
         currentInPile2.style.visibility = "hidden";
         player1Score.innerText = "Player1 Score: 0";
-        player2Score.innerText = "Player2 Score: 0";
+        player2Score.innerText = "Computer Score: 0";
 
     }
     else {
@@ -387,7 +387,7 @@ gameChoice.addEventListener("input", function () {
     if (gameChoice.value === "1") {
         reset();
         player1Score.innerText = "Player1 Score: 0";
-        player2Score.innerText = "Player2 Score: 0";
+        player2Score.innerText = "Computer Score: 0";
         imgOnStack2.style.visibility = "visible";
         cardBack2.style.visibility = "visible";
         cardFace2.style.visibility = "visible";
