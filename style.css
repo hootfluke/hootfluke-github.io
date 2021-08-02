@@ -76,7 +76,7 @@
   }
 
   #navRow{
-    height: 10vh
+    height: 5vh
   }
  
 #cardRow2{
@@ -89,5 +89,5 @@
 }
 
 #gameSelect, #reset{
-    padding-bottom: 1vh;
+    padding-bottom: 10px;
 }
