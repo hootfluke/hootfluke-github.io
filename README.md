@@ -5,5 +5,6 @@ First is before anything is selected in which you can just draw random cards fro
 Second is highest wins. 
 Each turn points based on the card you beat in that round.
 It will go through the whole deck and whoever has the highest score is the winner!
+If both cards are the same value no will be points given.
 You can also reset at any time with the reset button.
 More game modes will be added in the near future.
