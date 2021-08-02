@@ -85,7 +85,7 @@ function War(num1, num2) {
     }
     else if (num2 > num1) {
         p2score += num1;
-        player2Score.innerText = `Player2 Score: ${p2score}`;
+        player2Score.innerText = `Computer Score: ${p2score}`;
     }
 
 }
