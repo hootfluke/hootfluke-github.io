@@ -1,4 +1,4 @@
-# hootfluke.github.io
+# krhoetmer.github.io
 Hello All!
 There are currently two modes on my website.
 First is before anything is selected in which you can just draw random cards from a deck.
