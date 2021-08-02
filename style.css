@@ -91,3 +91,7 @@
 #gameSelect, #reset{
     margin-bottom: 1vh;
 }
+
+body{
+    background-color: #e3e3e3;
+}
