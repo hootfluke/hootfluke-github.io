@@ -1,0 +1,85 @@
+
+/* Credit w3schools.com */
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    pointer-events: auto;
+    position: relative;
+    background-color: transparent;
+    max-width: 50%;
+    height: auto;
+    /* perspective: 1000px; Remove this if you don't want the 3D effect */
+    
+  }
+
+  ::selection{
+    background-color: transparent;
+    color: transparent;
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner, .flip-card-inner2 {
+    position: relative;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    transition: transform .75s, right .75s;
+    transform-style: preserve-3d;
+    right: calc(-100%)
+  }
+  
+  /* Position the front and back side (sizing adjusted due to parent (.flip-card) being base*/
+  .flip-card-front, .flip-card-back, .flip-card-front2, .flip-card-back2 {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    right: calc(-100%);
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /*Style the back side */
+  .flip-card-back, .flip-card-back2 {
+    transform: rotateY(180deg);
+    right: 0;
+  }
+
+  .card-stack, .card-stack2 {
+    background-color: transparent;
+    position: absolute;
+    max-width: 50%;
+    height: auto;
+    right: calc(-100%);
+    
+  }
+
+  .card-played, .card-played2 {
+    background-color: transparent;
+    position: absolute;
+    max-width: 50%;
+    height: auto;
+    visibility: hidden;
+  }
+
+#imgOnStack2, #currentInPile2, #cardFace2, #cardBack2{
+    visibility: hidden;
+  }
+
+
+  .col-3{
+    border:black
+  }
+
+  #cardCol2, #cardCol1{
+    height: 35vh;
+
+  }
+
+  #navRow{
+    height: 10vh
+  }
+ 
+#cardRow2{
+    padding: 0;
+    margin: 0;
+  }
