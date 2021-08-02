@@ -87,3 +87,7 @@
 #navRow{
     background-color: #266125;
 }
+
+#gameSelect, #reset{
+    padding-bottom: 1vh;
+}
